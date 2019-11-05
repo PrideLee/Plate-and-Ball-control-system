@@ -1,7 +1,7 @@
 # Plate-and-Ball control system
 
 - Based on steering engine control technology, PID (proportional plus integral plus derivative) control algorithm, images processing technology and single chip development, we design and achieve a plate-and-ball control system, which collects the ball position and motion information by a camera, as actuator, linkage mechanism driven by steering engine controls tilts the plate, then controling the ball to finish specific motion.
--Hardwares include camera stant, SCM development board, steering engine, OV7670 camera, linkage, keyboard and DC power supply.
+- Hardwares include camera stant, SCM development board, steering engine, OV7670 camera, linkage, keyboard and DC power supply.
 - The system adopts PID control of a single loop strategy, camera collects the real position information and calculating the position deviation. Based on the deviation, we utilize PID algorithm to get the duty cycle of PWM, through this singnal to drive the steering engine, thus we can control the tilt of plate to plan the motion track of the ball.
 
 ## 摘要
