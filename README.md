@@ -4,7 +4,7 @@
 - Hardwares include camera stant, SCM development board, steering engine, OV7670 camera, linkage, keyboard and DC power supply.
 - The system adopts PID control of a single loop strategy, camera collects the real position information and calculating the position deviation. Based on the deviation, we utilize PID algorithm to get the duty cycle of PWM, through this singnal to drive the steering engine, thus we can control the tilt of plate to plan the motion track of the ball.
 
-**You can dowmload the complete report from [here](https://github.com/PrideLee/Plate-and-Ball-control-system/blob/master/%E6%9D%BF%E7%90%83%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.pdf)**
+**You can dowmload the full report from [here](https://github.com/PrideLee/Plate-and-Ball-control-system/blob/master/%E6%9D%BF%E7%90%83%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.pdf).**
 
 ## 摘要
 
