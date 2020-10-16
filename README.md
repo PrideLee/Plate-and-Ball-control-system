@@ -5,10 +5,11 @@
 - The system adopts PID control of a single loop strategy, camera collects the real position information and calculating the position deviation. Based on the deviation, we utilize PID algorithm to get the duty cycle of PWM, through this singnal to drive the steering engine, thus we can control the tilt of plate to plan the motion track of the ball.
 
 **You can dowmload the full report from [here](https://github.com/PrideLee/Plate-and-Ball-control-system/blob/master/%E6%9D%BF%E7%90%83%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.pdf).**
+**There are also some demos, you can check them in this [link](https://github.com/PrideLee/Plate-and-Ball-control-system/tree/master/img%26video).**
 
 ## 摘要
 
 本滚球系统以STM32F4单片机为核心，舵机作为执行机构，通过连杆机构使平板倾斜控制小球完成指定运动。结合舵机控制技术，PID控制算法，图形图像处理技术。硬件部分由支架、舵机、连杆、OV7670摄像头、键盘、直流电源、单片机等组成。系统采用单环PD控制，由摄像读取平板小球灰度图并转化为二值图，得到小球在平板上的坐标。舵机控制采用PWM占空比调制，由PD算法得到占空比，控制舵机转过一定角度以使平板倾斜，使小球完成各种动作。测试各项指标都符合要求。
 
 
-<div align=center><img width="700" height="700" src="https://github.com/PrideLee/Plate-and-Ball-control-system/blob/master/img%26video/blat-ball.png"/></div>
+# <div align=center><img width="700" height="700" src="https://github.com/PrideLee/Plate-and-Ball-control-system/blob/master/img%26video/blat-ball.png"/></div>
